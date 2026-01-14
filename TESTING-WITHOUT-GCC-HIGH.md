@@ -146,8 +146,8 @@ Testing in commercial Azure first is also **cheaper**:
 
 ```bash
 # 1. Clone the repo
-git clone <repo-url>
-cd Deploy-Agent-from-Copilot-Studio-to-Foundry-Foundry-to-Teams
+git clone https://github.com/soummyaa/copilot-to-teams-deployment.git
+cd copilot-to-teams-deployment
 
 # 2. Export your Copilot Studio agent
 # (Copy instructions from Copilot Studio)

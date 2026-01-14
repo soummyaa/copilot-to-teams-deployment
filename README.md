@@ -8,6 +8,17 @@ Welcome! This lab guides you through **migrating your Copilot Studio agent to Mi
 
 ---
 
+## 🚀 Quick Start
+
+**New to this project?** Here's where to go:
+
+- **Development Team**: Start with [Lab 1](./lab-1-setup/README.md) to set up your environment
+- **Teams Administrators**: Review [Admin Guide for GCC High](./ADMIN-GUIDE-GCC-HIGH.md) for deployment approval process
+- **Security/Compliance**: Check [GCC High FAQ](./GCC-HIGH-FAQ.md) for compliance details
+- **Current Status**: This is a development-ready codebase that needs Azure Government migration for production
+
+---
+
 ## Important: Understanding This Approach
 
 ### What This Lab Does
@@ -82,6 +93,19 @@ Before starting, you must have:
 
 ---
 
+## ⚙️ Configuration Required
+
+This repository contains **template files with placeholders** that you'll fill in during the labs:
+
+- 🔧 **Azure OpenAI credentials** - Configured in Lab 2
+- 🔧 **Microsoft App ID & Password** - Created in Lab 3  
+- 🔧 **Teams manifest** - Updated with your App ID in Lab 3
+- 🔧 **Agent instructions** - Customized with your Copilot Studio agent in Lab 2
+
+**Don't worry!** Each lab walks you through exactly what to configure and when.
+
+---
+
 ## Start Your Labs
 
 Follow the three labs in order. Each lab is contained in its own folder with step-by-step instructions:
@@ -131,6 +155,8 @@ KNOWLEDGE-SOURCES.md          # Guide for adding knowledge bases
 - **[GCC High FAQ](./GCC-HIGH-FAQ.md)**: Compliance, costs, capabilities, and common questions
 - **[Testing Without GCC High](./TESTING-WITHOUT-GCC-HIGH.md)**: How to test in commercial Azure first
 - **[Knowledge Sources Guide](./KNOWLEDGE-SOURCES.md)**: How to migrate Copilot Studio knowledge bases
+- **[Entra Auth Setup](./ENTRA-AUTH-SETUP.md)**: Secure authentication (recommended for GCC High production)
+- **[Admin Guide](./ADMIN-GUIDE-GCC-HIGH.md)**: For Teams administrators managing deployment
 - **Labs 1-3**: Step-by-step deployment instructions
 
 ### Key Commands

@@ -20,8 +20,8 @@ Before starting, ensure you have:
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/Deploy-Agent-from-Copilot-Studio-to-Foundry-Foundry-to-Teams.git
-cd Deploy-Agent-from-Copilot-Studio-to-Foundry-Foundry-to-Teams
+git clone https://github.com/soummyaa/copilot-to-teams-deployment.git
+cd copilot-to-teams-deployment
 ```
 
 ## Step 2: Review the Repository Structure
